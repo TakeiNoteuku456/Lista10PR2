@@ -18,7 +18,7 @@ namespace Lista10PR2
                 Console.WriteLine("2. Exercício 2");
                 Console.WriteLine("3. Exercício 3");
                 Console.WriteLine("4. Exercício 4 ");
-                Console.WriteLine("5. Exercício 5 ");
+                Console.WriteLine("5. Exercício 5 "); 
                 Console.WriteLine("6. Sair");
                 Console.Write("Escolha uma opção: ");
                 opcao = int.Parse(Console.ReadLine());
@@ -40,7 +40,7 @@ namespace Lista10PR2
                         Exercicio4();
                         break;
                     case 5:
-                        Exercicío5();
+                        Exercicio5();
                         break;
                     case 6:
                         Console.WriteLine("Saindo do programa...");
@@ -53,7 +53,7 @@ namespace Lista10PR2
 
 
                 Console.WriteLine();
-            } while (opcao != 4);
+            } while (opcao != 5);
         }
 
 
@@ -249,3 +249,4 @@ namespace Lista10PR2
         }
     }
 }
+   
